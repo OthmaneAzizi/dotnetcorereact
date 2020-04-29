@@ -12,6 +12,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
+using MediatR;
+using Application.Activities;
+
 namespace API
 {
     public class Startup
@@ -30,7 +33,16 @@ namespace API
             services.AddDbContext<DataContext>(opt => {
                 opt.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));
             });
-            services.AddControllers();
+            services.AddCors(opt => {
+            opt.AddPolicy("CorsPolicy", policy=> {
+            policy.WithOrigins("http://localhost:3000").AllowAnyHeader()
+                .AllowAnyMethod();
+            });
+           
+        });
+         services.AddControllers();
+            services.AddMediatR(typeof(List.Handler).Assembly);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,7 +58,9 @@ namespace API
             //    app.UseHsts();
             }
 
+app.UseCors("CorsPolicy");
             app.UseHttpsRedirection();
+            
 
             app.UseRouting();
 

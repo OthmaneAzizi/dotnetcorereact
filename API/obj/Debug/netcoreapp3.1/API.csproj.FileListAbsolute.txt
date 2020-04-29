@@ -49,3 +49,7 @@ C:\Users\otazizi\Desktop\reactivities\API\obj\Debug\netcoreapp3.1\API.RazorTarge
 C:\Users\otazizi\Desktop\reactivities\API\obj\Debug\netcoreapp3.1\API.csproj.CopyComplete
 C:\Users\otazizi\Desktop\reactivities\API\obj\Debug\netcoreapp3.1\API.dll
 C:\Users\otazizi\Desktop\reactivities\API\obj\Debug\netcoreapp3.1\API.pdb
+C:\Users\otazizi\Desktop\reactivities\api\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\otazizi\Desktop\reactivities\api\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\otazizi\Desktop\reactivities\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+C:\Users\otazizi\Desktop\reactivities\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache

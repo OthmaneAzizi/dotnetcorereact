@@ -11,3 +11,4 @@ C:\Users\otazizi\Desktop\reactivities\Application\obj\Debug\netstandard2.0\Appli
 C:\Users\otazizi\Desktop\reactivities\Application\obj\Debug\netstandard2.0\Application.csproj.CopyComplete
 C:\Users\otazizi\Desktop\reactivities\Application\obj\Debug\netstandard2.0\Application.dll
 C:\Users\otazizi\Desktop\reactivities\Application\obj\Debug\netstandard2.0\Application.pdb
+C:\Users\otazizi\Desktop\reactivities\Application\obj\Debug\netstandard2.0\Application.csproj.CoreCompileInputs.cache

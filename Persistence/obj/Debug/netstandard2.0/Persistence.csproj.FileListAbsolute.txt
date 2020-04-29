@@ -9,3 +9,4 @@ C:\Users\otazizi\Desktop\reactivities\Persistence\obj\Debug\netstandard2.0\Persi
 C:\Users\otazizi\Desktop\reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CopyComplete
 C:\Users\otazizi\Desktop\reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.dll
 C:\Users\otazizi\Desktop\reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.pdb
+C:\Users\otazizi\Desktop\reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CoreCompileInputs.cache
